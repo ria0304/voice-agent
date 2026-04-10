@@ -1,12 +1,4 @@
-"""
-LLM abstraction layer.
 
-Supported backends
-------------------
-ollama     – Local Ollama server (http://localhost:11434)
-anthropic  – Anthropic Claude API
-openai     – OpenAI ChatCompletion API
-"""
 
 import os
 import json
