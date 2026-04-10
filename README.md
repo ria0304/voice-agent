@@ -162,6 +162,3 @@ All generated files are written exclusively to the **`./output/`** directory. Pa
 
 ---
 
-## 📄 License
-MIT
-"# voice-agent" 
