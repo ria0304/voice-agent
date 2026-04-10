@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+output/*
+!output/.gitkeep
+*.wav
+*.mp3
+*.m4a
+.DS_Store

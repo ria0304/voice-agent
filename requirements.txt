@@ -1,0 +1,25 @@
+# ── Core UI ────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── STT: choose your provider ─────────────────────────────────────────────────
+# Option A – local Whisper (CPU / GPU)
+openai-whisper>=20231117
+
+# Option B – Groq API (fast, free tier)
+groq>=0.9.0
+
+# Option C – OpenAI API
+openai>=1.30.0
+
+# ── LLM providers ─────────────────────────────────────────────────────────────
+# Ollama  – no pip package needed, just run: https://ollama.com
+# Anthropic
+anthropic>=0.28.0
+# OpenAI (shared with STT option C above)
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# ── Optional: faster Whisper inference ────────────────────────────────────────
+# faster-whisper>=1.0.0   # uncomment for GPU-accelerated local STT
