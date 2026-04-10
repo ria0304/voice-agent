@@ -1,9 +1,4 @@
-"""
-Tool execution module.
 
-Executes actions based on classified intents.
-All file output is sandboxed to the ./output/ directory.
-"""
 
 import os
 import re
