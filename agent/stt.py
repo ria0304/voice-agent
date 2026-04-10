@@ -1,15 +1,4 @@
-"""
-Speech-to-Text module.
 
-Providers
----------
-whisper-local  – runs openai-whisper locally (CPU / GPU).
-groq           – Groq's Whisper endpoint (fast, free tier generous).
-openai         – OpenAI Whisper API.
-
-Set credentials via environment variables or .env:
-  GROQ_API_KEY / OPENAI_API_KEY
-"""
 
 import os
 import tempfile
