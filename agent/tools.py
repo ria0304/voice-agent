@@ -126,7 +126,7 @@ def _create_file(text: str, params: dict) -> dict:
         return {
             "success": True,
             "action": f"Created folder: output/{path.name}/",
-            "output": f"📁 Directory created: output/{path.name}/",
+            "output": f" Directory created: output/{path.name}/",
             "files": [str(path)],
         }
     else:
@@ -134,7 +134,7 @@ def _create_file(text: str, params: dict) -> dict:
         return {
             "success": True,
             "action": f"Created file: output/{path.name}",
-            "output": f"📄 Empty file created: output/{path.name}",
+            "output": f" Empty file created: output/{path.name}",
             "files": [str(path)],
         }
 
